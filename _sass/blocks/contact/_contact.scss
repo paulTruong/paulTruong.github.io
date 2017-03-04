@@ -1,0 +1,35 @@
+.contact {
+
+}
+
+/*-----Elements-----*/
+
+.contact__container {
+  padding: 0 20px;
+}
+
+.contact__text {
+  margin:0 10px 20px 0;
+}
+
+.contact__title {
+  padding:15px 0;
+  text-align:center;
+}
+
+.contact__confirm {
+  display:none;
+}
+
+.contact__form {
+  padding: 0 0 20px 0;
+}
+
+/*-----Modifier-----*/
+
+@media screen and (min-width:600px) {
+  .contact__container_desktop {
+    width:50vw;
+    max-width:500px;
+  }
+}

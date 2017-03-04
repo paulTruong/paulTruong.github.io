@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  width:100%;
+  background:black;
+  color:$white;
+}
+
+/*-----Elements-----*/
+
+.footer__nav {
+  margin:0px 0px 10px 45px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:10px 0;
+}
+
+.footer__menu-item {
+  margin:15px 10px 15px 0;
+}
+
+@media screen and (min-width:600px) {
+  .footer__nav_desktop {
+    display:flex;
+  }
+
+  .footer__menu_desktop {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer_copyright_desktop {
+    align-self: center;
+  }
+}

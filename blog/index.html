@@ -1,0 +1,12 @@
+---
+layout: default
+title: Blog - Paul Truong
+---
+<div class="blog__page">
+  <ul class="blog__list">
+  <h1 class="blog__header content__header content__header_blogList">Archive</h1>
+    {% for post in site.posts %}
+      {% include blog/blogItem.html %}
+    {% endfor %}
+  </ul>
+</div>

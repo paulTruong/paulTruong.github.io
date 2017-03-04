@@ -1,0 +1,43 @@
+.bio {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 2;
+}
+
+.bio__portrait {
+  margin-bottom:20px;
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.bio__desc {
+  font-size: 1em;
+  max-height: 350px;
+}
+
+@media screen and (min-width:625px) {
+  .bio {
+    flex-direction:row;
+  }
+
+  .bio__portrait {
+    margin-bottom:0px;
+    align-self: flex-start;
+  }
+
+  .bio__textBlock {
+    margin-left: 30px;
+    padding: 0px;
+    max-width: 600px;
+    border: none;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width:1250px) {
+  .bio {
+    flex:1;
+  }
+
+}

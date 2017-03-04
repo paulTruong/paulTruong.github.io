@@ -1,0 +1,37 @@
+.icon {
+  width:30px;
+  height:30px;
+}
+
+.inner-box {
+  fill:black;
+}
+
+.icon__menu {
+  width:60px;
+}
+
+
+/*       &:nth-child(2) {
+        transform: scaleX(1);
+        transition: transform 0.2s $snappy;
+      }
+    }
+    &.is-menu-open {
+      .bars {
+        span {
+          &:first-child {
+            transform: translateY(15px) rotate(45deg);
+            transition: transform 0.3s $snappy;
+          }
+          &:nth-child(2){
+            transform: scaleX(0);
+            transition: transform 0.2s $snappy;
+          }
+          &:nth-child(3) {
+            transform: translateY(-15px) rotate(-45deg);
+            transition: transform 0.3s $snappy;
+          }
+        }
+      }
+    } */

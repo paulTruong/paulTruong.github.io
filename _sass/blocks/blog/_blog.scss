@@ -1,0 +1,40 @@
+.blog {
+  margin:20px 0;
+  flex: 1;
+}
+
+/*-----Elements-----*/
+
+.blog__list {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.blog__page {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog__list-item {
+  margin-bottom: 40px;
+}
+
+.blog__list-pubDate {
+  color: $grey;
+}
+
+.blog__link {
+  color:$red;
+}
+
+.blog__link:visited {
+  color:$red;
+}
+
+@media screen and (min-width:900px) {
+  .blog {
+    margin:0 0 0 100px;
+  }
+}

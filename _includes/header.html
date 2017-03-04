@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script> -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header container__header">
+<!--       <div class="logo header__logo"></div> -->
+      {% if page.location == 'home' %}
+        <h1 class="header__title header__title_desktop"><a class="link" href="/">{{ site.title }}</a></h1>
+      {% elsif page.location != 'home' %}
+        <h3 class="header__title header__title_desktop"><a class="link link__back" href="javascript:history.back()">Go Back</a></h3>
+      {% endif %}
+      <nav class="nav header__nav_desktop">
+        <ul class="menu header__menu">
+          <li class="menu__item header__menu-item"><a class="link" href="/">Home</a></li>
+<!--           <li class="menu__item header__menu-item"><a class="link" href="/work/">Work</a></li> -->
+          <li class="menu__item header__menu-item"><a class="link" href="/blog/">Blog</a></li>
+          <!-- <li class="menu__item header__menu-item"><a class="link" href="/about/">About</a></li> -->
+        </ul>
+      </nav>
+    </header>

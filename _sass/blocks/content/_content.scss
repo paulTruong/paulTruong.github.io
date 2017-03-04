@@ -1,0 +1,33 @@
+.content {
+
+}
+
+/*-----Elements-----*/
+
+.content__post {
+  display: flex;
+  justify-content: center;
+}
+
+.content__header {
+  margin-bottom: 1rem;
+}
+
+/*-----Modifiers-----*/
+
+.content__header_blogList {
+  color:$red;
+}
+
+@media screen and (min-width:600px) {
+  .content__hero_desktop {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .content__contact_desktop {
+    display:flex;
+    flex-direction:column;
+  }
+}

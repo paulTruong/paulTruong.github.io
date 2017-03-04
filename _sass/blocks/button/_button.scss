@@ -1,0 +1,19 @@
+.button {
+  border:1px solid black;
+}
+
+.button__submit {
+  padding:10px 30px;
+  width:100%;
+  background:#fff;
+  margin:0 auto;
+}
+
+.button__submit:hover {
+  cursor:pointer;
+}
+
+.button__blog {
+  padding:5px 20px;
+  margin:40px 0 0 0;
+}

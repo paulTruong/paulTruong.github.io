@@ -1,0 +1,48 @@
+.header {
+  display:flex;
+  align-items:center;
+  width:100%;
+  height:65px;
+}
+
+/*-----Elements-----*/
+
+.header__menu-label {
+  text-align:center;
+}
+
+.header__title {
+  margin:0 0 0 15px;
+}
+
+.header__menu {
+  display:flex;
+}
+
+.header__menu-item {
+  margin: 0 20px;
+}
+
+/*-----Modifiers-----*/
+
+.header__nav_desktop {
+  display:none;
+}
+
+@media screen and (min-width:600px) {
+ .header__nav_desktop {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex:1;
+    padding: 0 40px;
+  }
+
+  .header__title_desktop {
+    padding:0 50px;
+  }
+
+  .header__title {
+    margin:0;
+  }
+}

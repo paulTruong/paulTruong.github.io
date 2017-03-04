@@ -1,0 +1,98 @@
+/*
+46.971em
+32.36em
+29.03em
+20em
+17.942em
+12.361em
+11.089em
+7.64em
+6.854em
+4.722em
+4.236em
+2.918em
+2.618em
+1.804em
+1.618em
+1.115em
+1em
+0.618em
+0.382em
+0.236em
+0.146em
+0.09em
+*/
+
+header,
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin:0;
+  padding:0;
+}
+
+html,
+body {
+  height:100%;
+  background-color: $white;
+}
+
+a {
+  text-decoration:none;
+}
+
+/*------Typography------*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Muli');
+
+html,
+body {
+  font-family: 'Muli', sans-serif;
+  font-size:100%;
+  color:$black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Serif', serif;
+}
+
+h1 {
+  font-size:2.427rem;
+}
+
+h2 {
+  font-size:1.618rem;
+}
+
+h3 {
+  font-size:1.115rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.618rem;
+}
+
+h6 {
+
+}
+
+p {
+  font-size:1rem;
+  line-height: 1.618rem;
+}
+
+footer {
+}

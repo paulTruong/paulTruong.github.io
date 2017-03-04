@@ -1,0 +1,26 @@
+.post {
+    max-width: 46.971em;
+    padding-bottom: 40px;
+}
+
+.post__title {
+  font-size: 2.918rem;
+  margin-bottom: 10px;
+}
+.post__pub-date {
+  color: $grey;
+}
+.post__content > ol > li {
+    padding: 10px 0;
+}
+
+
+@media screen and (min-width:600px) {
+  .post__content_desktop > ul > li,
+  .post__content_desktop > p,
+  .post__content_desktop > ol > li,
+   {
+    font-size: 1.25rem;
+    line-height: 2.022rem;
+  }
+}

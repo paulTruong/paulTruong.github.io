@@ -1,0 +1,10 @@
+<div class="blog">
+  <ul class="blog__list">
+    <h2 class="content__header content__header_blogList">Latest Posts</h2>
+    {% for post in site.posts limit:4 %}
+      {% include blog/blogItem.html %}
+    {% endfor %}
+  </ul>
+  <!-- Uncomment when number of posts is more than 4 -->
+  <!-- <a class="link blog__link" href="/blog">View more...</a> -->
+</div>
