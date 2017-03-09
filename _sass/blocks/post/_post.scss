@@ -14,6 +14,9 @@
     padding: 10px 0;
 }
 
+.post__content a {
+  text-decoration: underline;
+}
 
 @media screen and (min-width:600px) {
   .post__content_desktop > ul > li,
