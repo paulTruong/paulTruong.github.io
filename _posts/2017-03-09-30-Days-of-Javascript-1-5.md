@@ -41,4 +41,20 @@ What I learnt
 *   change and mousemove events
 *   Datasets. Gives an object that contains the data attributes of an element
 
+## Day 4 - Array Cardio Part 1
+
+All the code in this one is executed in dev tools. So no Codepen example here.
+
+What I learnt
+*   Lots of useful array functions (map(), reduce(), filter() etc.) Really good one for an array newbie (like me).
+
+## Day 5 - Flex Panel Gallery
+
+<p data-height="434" data-theme-id="dark" data-slug-hash="RpZPgr" data-default-tab="result" data-user="ptruong" data-embed-version="2" data-pen-title="Day 5 - Flex Panel Gallery" class="codepen">See the Pen <a href="https://codepen.io/ptruong/pen/RpZPgr/">Day 5 - Flex Panel Gallery</a> by Paul Truong (<a href="http://codepen.io/ptruong">@ptruong</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+What I learnt
+*   Nice little refresher on flexbox and CSS selectors
+*   .toggle() function   
+
 **Disclaimer:** Just to be super clear, none of the course content is mine, I am just going through and documenting what I have learnt. This course is created by [Wes Bos](http://wesbos.com/). I highly recommend his [courses](http://wesbos.com/courses/) to anyone starting in web development.
