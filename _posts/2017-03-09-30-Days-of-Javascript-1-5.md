@@ -57,4 +57,7 @@ What I learnt
 *   Nice little refresher on flexbox and CSS selectors
 *   .toggle() function   
 
+Other parts to this series:
+[Day 6 - 10]({{ site.baseurl }}{% post_url 2017-03-14-30-Days-of-Javascript-6-10 %})
+
 **Disclaimer:** Just to be super clear, none of the course content is mine, I am just going through and documenting what I have learnt. This course is created by [Wes Bos](http://wesbos.com/). I highly recommend his [courses](http://wesbos.com/courses/) to anyone starting in web development.
