@@ -1,0 +1,66 @@
+@mixin transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin transition_overlay {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.underline {
+    @include transition;
+    position: relative;
+    border: none;
+}
+
+.underline_show {
+    border-bottom: 5px solid $secondary-color; 
+}
+
+.underline:after {
+    @include transition;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background-color: $secondary-color;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: 2px;
+}
+
+.underline_hover:hover {
+    text-decoration: none;
+}
+
+.underline_hover:hover:after {
+    width:100%;
+    left: 0;    
+}
+
+.overlay {
+    @include transition_overlay;
+    background: rgba(255, 73, 69, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: $white;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.overlay_hover:hover {
+    opacity: 1;
+}

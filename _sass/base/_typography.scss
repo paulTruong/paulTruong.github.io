@@ -1,0 +1,86 @@
+/*------Typography------*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif');
+
+/*---For calculating font size based on a modular scale---*/
+
+// 1. Base size and ratio
+$base: 1;
+$ratio: 1.5; // Perfect fifth
+
+//2. Power function to calculate the modular scale '(ratio^value)*base'
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  } @else if $exponent < 0 {
+      @for $i from 1 through $exponent {
+        $value: $value / $number;
+    } 
+  }
+  @return $value;
+}
+
+//3. Put it all together
+@function ms($value, $ms-ratio: $ratio, $ms-base: $base) {
+  $size: pow($ms-ratio, $value)* $ms-base;
+  @return #{ $size + "rem" };
+}
+
+/*-----Line Height-----*/
+$line-height: 1.4;
+
+@mixin line-height($number) {
+  line-height: #{ $number * $line-height + 'rem'};
+}
+
+html,
+body {
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  color:$black;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: ms(3);
+}
+
+h2 {
+  font-size: ms(2);
+}
+
+h3 {
+  font-size: ms(1);
+}
+
+h4 {
+  font-size: ms(0);
+}
+
+h5 {
+  font-size: ms(-1);
+}
+
+p {
+  font-size: ms(0);
+  @include line-height(1);
+}
+
+
+@media screen and (min-width:650px) {
+  html {
+    font-size: 137.5%;
+  }
+}

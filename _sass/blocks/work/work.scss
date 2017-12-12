@@ -1,0 +1,25 @@
+.work__item {
+    max-width:410px;
+    margin: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.work__list {
+    padding: 0;
+    margin: 0;
+}
+
+.work__thumbnail {
+    max-width:100%;
+    margin: 0 0 25px 0;
+    position: relative;
+}
+
+.work__link {
+    font-weight: 400;
+}
+
+.work__link_home {
+    color: $white;
+}

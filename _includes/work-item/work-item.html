@@ -1,0 +1,28 @@
+<li class="work__item">
+  {% if item.isPublished %}
+    <figure class="work__thumbnail figure">
+      <a class="figure__link" href="{{ item.url }}">
+        <div class="overlay overlay_hover">
+          <h2 class="overlay__text">View</h2>
+        </div>
+        <img class="figure__img" src="{{ item.thumbnail }}"/>
+      </a>
+    </figure>
+  {% else %}
+    <figure class="work__thumbnail figure">
+      <div class="overlay overlay_hover">
+        <h2 class="overlay__text">Case study coming soon</h2>
+      </div>
+      <img class="figure__img" src="{{ item.thumbnail }}"/>
+    </figure>
+  {% endif %}
+  <section class="work__details work__details_hover">
+      <h2 class="work__title">{{ item.title }}</h2>
+      <span class="work__summary"> {{ item.summary }} - </span>
+      <a class="link work__link underline underline_hover 
+        {% if page.url == "/" %}
+          work__link_home
+        {% endif %}
+      " href="{{ item.website }}" target="_blank">Visit Site</a>
+  </section>
+</li>

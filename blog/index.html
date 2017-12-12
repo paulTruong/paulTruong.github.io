@@ -2,11 +2,11 @@
 layout: default
 title: Blog - Paul Truong
 ---
-<div class="blog__page">
+<section class="section blog__page">
+  <h1 class="section__title blog__header content__header content__header_blogList">Archive</h1>  
   <ul class="blog__list">
-  <h1 class="blog__header content__header content__header_blogList">Archive</h1>
     {% for post in site.posts %}
-      {% include blog/blogItem.html %}
+      {% include blog/blog-post.html %}
     {% endfor %}
   </ul>
 </div>

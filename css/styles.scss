@@ -2,23 +2,26 @@
 # Front matter is needed in order for Jekyll to process this file
 ---
 @import "base/variables";
+@import "base/mixins";
 @import "base/normalize";
+@import "base/typography";
+@import "blocks/link/link";
+@import "base/animations";
 @import "blocks/button/button";
-@import "blocks/container/container";
+@import "blocks/wrapper/wrapper";
 @import "blocks/header/header";
+@import "blocks/section/section";
 @import "blocks/hero/hero";
-@import "blocks/content/content";
 @import "blocks/form/form";
 @import "blocks/error/error";
 @import "blocks/contact/contact";
-@import "blocks/link/link";
-@import "blocks/logo/logo";
-@import "blocks/icon/icon";
-@import "blocks/text/text";
-@import "blocks/hamburger/hamburger";
 @import "blocks/menu/menu";
+@import "blocks/nav/nav";
 @import "blocks/blog/blog";
-@import "blocks/blog-list/blog-list";
+@import "blocks/blog-post/blog-post";
 @import "blocks/post/post";
-@import "blocks/bio/bio";
+@import "blocks/work/work";
 @import "blocks/footer/footer";
+@import "blocks/about/about";
+@import "blocks/figure/figure";
+@import "blocks/form-item/form-item";

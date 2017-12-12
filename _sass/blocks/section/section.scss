@@ -1,0 +1,39 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section__title {
+    font-size: ms(3);
+    text-align: center;
+    margin: 0 0 25px 0;
+    @include line-height(2);
+}
+
+.section_hero {
+    margin: 50px 50px auto 50px;
+    align-items: flex-start; 
+    flex-direction: row;
+}
+
+.section_blog {
+    padding: 50px 25px;
+}
+
+.section_work {
+    padding: 50px 25px;
+    background:$bg-black;
+    color:$white;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+@media screen and (min-width:1250px) {
+    .section_hero_desktop {
+        margin: 50px 100px auto 100px
+    }
+}

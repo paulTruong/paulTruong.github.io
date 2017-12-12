@@ -1,10 +1,10 @@
-<div class="blog">
+<section class="section section_blog blog">
+  <h1 class="section__title blog__title">My latest posts</h1>
   <ul class="blog__list">
-    <h2 class="content__header content__header_blogList">Latest Posts</h2>
     {% for post in site.posts limit:4 %}
-      {% include blog/blogItem.html %}
+        {% include blog/blog-post.html %}
     {% endfor %}
   </ul>
   <!-- Uncomment when number of posts is more than 4 -->
-  <!-- <a class="link blog__link" href="/blog">View more...</a> -->
-</div>
+    <a class="link blog__link button" href="/blog">View more</a>
+</section>

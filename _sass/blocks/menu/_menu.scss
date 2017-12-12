@@ -1,3 +1,49 @@
 .menu {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item {
+  display: block;
+  margin: 20px;
+  text-decoration:none;
+  font-size: ms(1);
+  font-weight:bold;
+  letter-spacing: 1px;
+}
+
+.menu__item_footer {
+  margin: 20px 50px;
+  display: inline;
+}
+
+.menu__link_footer {
+  color: $white;
+}
+
+.menu__link_hover:hover {
+  text-decoration: none;
+}
+
+.menu__skip {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  padding: 10px 25px;
+  background: $secondary-color;
+  color: $white;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+@media screen and (min-width:650px) { 
+  .menu__item {
+    display: inline;
+  }
+
+  .menu__skip {
+   display: none;
+  }
 }

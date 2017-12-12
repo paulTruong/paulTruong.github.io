@@ -1,0 +1,12 @@
+---
+layout: default
+title: Work - Paul Truong
+---
+<section class="section work">
+  <h1 class="section__title work__title">My work</h1>
+  <ul class="work__list">
+  {% for item in site.projects %}
+      {% include work-item/work-item.html %}    
+  {% endfor %}
+  </ul>
+</section>

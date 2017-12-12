@@ -1,0 +1,23 @@
+.form-item {
+    margin: 10px 0;
+}
+
+.form-item__input {
+    width: 100%;
+}
+
+.form-item__input_error {
+    border-color: $secondary-color;
+}
+
+.form-item__label {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.form-item__submit {
+}
+
+.form-item__submit:hover {
+    background: $secondary-color;
+}

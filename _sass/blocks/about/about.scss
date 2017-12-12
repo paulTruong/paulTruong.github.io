@@ -1,0 +1,23 @@
+.about {
+    margin: 0 10%;
+}
+
+.about__blurb {
+    font-size: ms(0);
+}
+
+.about__img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (min-width:1000px) {
+    .about {
+        margin:0 25%;
+    }
+
+    .about__img {
+        max-width: 50%;
+    }
+}

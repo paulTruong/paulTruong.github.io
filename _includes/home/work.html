@@ -1,0 +1,9 @@
+<section class="section section_work work">
+    <h1 class="section__title work__title">A few things I've done</h1>
+    <ul class="work__list">
+        {% for item in site.projects limit:3 %}
+            {% include work-item/work-item.html %}    
+        {% endfor %}
+    </ul>
+</section>
+      

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Contact - Paul Truong
+---
+<section class="section contact">
+  <h1 class="section__title contact__title">Hit me up</h1>
+  <p class="contact__text">I'd love to hear from you. If you're interested in what I do or just want to chat. Please do get in touch.</p>
+  <form class="form contact__form" action="https://formspree.io/mrpaultruong@gmail.com" method="POST">
+    <div class="form__input form-item">
+      <h4 class="form-item__label">Name<span class="mandatory">*</span></h4>
+      <input class="form-item__input" type="text" name="name" required>
+    </div>
+
+    <div class="form__input form-item">
+      <h4 class="form-item__label">Email<span class="mandatory">*</span></h4>
+      <input class="form-item__input" type="email" name="_replyto" required>
+    </div>
+
+    <div class="form__input form-item">
+      <h4 class="form-item__label">Your message<span class="mandatory">*</span></h4>
+      <textarea class="form-item__input" cols="10" rows="8" name="message" required></textarea>                
+    </div>
+    <input type="hidden" name="_next" value="/contact/thanks.html" />
+    <input class="button form-item__submit" type="submit" name="submit"  value="Submit">
+  </form>
+</section>

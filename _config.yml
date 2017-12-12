@@ -38,3 +38,7 @@ future: true
 
 # Google services
 google_analytics: UA-93091209-1
+collections:
+  projects:
+    output: true
+    permalink: /work/:name

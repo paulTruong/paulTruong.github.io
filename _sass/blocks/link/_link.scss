@@ -1,14 +1,16 @@
 .link {
   text-decoration: none;
-  color:black;
+  color:$black;
+  background:none;
+  font-weight: 700;
 }
 
 .link__back {
-  color: $red;
+  color: $primary-color;
 }
 
-.link:visited {
-  color:black;
+.link_footer {
+  color: $white;
 }
 
 .link:hover {
@@ -17,10 +19,4 @@
 
 .link:active {
   text-decoration:underline;
-}
-
-
-.link__footer,
-.link__footer:visited {
-  color:$white;
 }

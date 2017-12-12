@@ -1,11 +1,20 @@
 .footer {
   display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+  padding: 20px 0px;
   width:100%;
-  background:black;
+  background:$primary-color;
   color:$white;
 }
 
 /*-----Elements-----*/
+
+.copyright__text {
+  margin:15px 0;
+  text-align: center
+}
 
 .footer__nav {
   margin:0px 0px 10px 45px;
@@ -16,10 +25,22 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding:10px 0;
+  color:$white;
 }
 
 .footer__menu-item {
   margin:15px 10px 15px 0;
+  color:$white;
+}
+
+.footer__copyright {
+  letter-spacing: 1px;
+  font-size: ms(0);
+  line-height: ms(0);
+}
+
+.footer__social {
+  color: $white;
 }
 
 @media screen and (min-width:600px) {

@@ -1,12 +1,42 @@
 .button {
-  border:1px solid black;
+  border:5px solid $secondary-color;
+  padding:20px;
+  font-family: 'PT Sans', sans-serif;
+  font-size:1.618em;
+  margin:0 auto;
+  background: none;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  @include transition;
+  z-index: 1;
 }
 
-.button__submit {
-  padding:10px 30px;
-  width:100%;
-  background:#fff;
-  margin:0 auto;
+.button:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  bottom: 0;
+  left: auto;
+  right: -15%;
+  @include transition;
+  transform: skewX(25deg);
+  background: $secondary-color;
+  height: 100%;
+  z-index: -1;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: $white;
+  @include transition;
+}
+.button:hover:after {
+  width: 135%;
+  @include transition;
+  transform: skewX(25deg);
+  left: -15%;
+  // z-index: 1;
 }
 
 .button__submit:hover {

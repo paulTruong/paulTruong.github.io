@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Web,Developer,Canberra,Australia,Paul,Truong,Digital,HTML,CSS,JavaScript,Wordpress,website">
     {% if site.google_analytics and jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
@@ -9,17 +10,16 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <div class="container">
-    <header class="header container__header">
-      {% if page.location == 'home' %}
+      <header class="header header_desktop">
         <h1 class="header__title header__title_desktop"><a class="link" href="/">{{ site.title }}</a></h1>
-      {% elsif page.location != 'home' %}
-        <h3 class="header__title header__title_desktop"><a class="link link__back" href="javascript:history.back()">Go Back</a></h3>
-      {% endif %}
-      <nav class="nav header__nav_desktop">
-        <ul class="menu header__menu">
-          <li class="menu__item header__menu-item"><a class="link" href="/">Home</a></li>
-          <li class="menu__item header__menu-item"><a class="link" href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav class="nav header__nav header__nav_desktop">
+          <h3><a class="menu__skip" href="">Menu</a></h3>
+          <ul class="menu header__menu">
+            <li class="menu__item"><a class="link menu__link menu__link_hover underline underline_hover" href="/">Home</a></li>
+            <li class="menu__item"><a class="link menu__link menu__link_hover underline underline_hover" href="/about/">About</a></li>
+            <li class="menu__item"><a class="link menu__link menu__link_hover underline underline_hover" href="/blog/">Blog</a></li>
+            <li class="menu__item"><a class="link menu__link menu__link_hover underline underline_hover" href="/work/">Work</a></li>
+            <li class="menu__item"><a class="link menu__link menu__link_hover underline underline_hover" href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
