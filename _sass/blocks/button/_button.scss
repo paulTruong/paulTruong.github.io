@@ -2,7 +2,7 @@
   border:5px solid $secondary-color;
   padding:20px;
   font-family: 'PT Sans', sans-serif;
-  font-size:1.618em;
+  font-size:ms(1);
   margin:0 auto;
   background: none;
   font-weight: bold;
@@ -46,4 +46,8 @@
 .button__blog {
   padding:5px 20px;
   margin:40px 0 0 0;
+}
+
+.button_post {
+  margin-bottom: 25px;
 }

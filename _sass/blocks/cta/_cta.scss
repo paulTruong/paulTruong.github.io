@@ -1,0 +1,14 @@
+.cta {
+    max-width: 75%;
+}
+
+.cta__desc {
+    font-size: ms(1);
+    @include line-height(1.5); 
+}
+
+@media screen and (min-width:600px) {
+    .cta {
+        max-width: 50%;
+    }
+  }

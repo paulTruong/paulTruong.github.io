@@ -184,10 +184,12 @@ sub {
 
 /**
  * Remove border when inside `a` element in IE 8/9/10.
+ * Set image to 100% width of parent by default
  */
 
 img {
   border: 0;
+  max-width: 100%;
 }
 
 /**

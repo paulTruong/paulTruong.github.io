@@ -1,17 +1,21 @@
 .post {
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .post__title {
   font-size: ms(2);
   @include line-height(2); 
-  text-align: center;
 }
 .post__pub-date {
   color: $grey;
-  text-align: center;
-  margin-bottom: 40px;
-  @include line-height(3); 
+  margin: 2rem 0;
   
 }
 .post__content > ol > li {
@@ -27,6 +31,17 @@
   text-decoration: underline;
 }
 
+.post__image_sml {
+  float:left;
+  max-width: 100%;
+  background: white;
+}
+@media screen and (min-width:850px) {
+  .post__image_sml {
+    max-width: 50%;
+  }
+}
+
 @media screen and (min-width:850px) {
   .post__content_desktop > ul > li,
   .post__content_desktop > ol > li,
@@ -37,10 +52,6 @@
   .post__title {
     font-size: ms(4);
     @include line-height(4);
-  }
-
-  .post__pub-date {
-    margin-bottom: 80px;
   }
 }
 

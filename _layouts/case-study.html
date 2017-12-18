@@ -1,0 +1,18 @@
+{% include header.html %}
+<main class="wrapper wrapper_post container__content">
+  <article class="post">
+    <div class="post__header">
+        <h1 class="post__title">{{ page.title }}</h2>
+        <h4 class="post__pub-date">{{ page.date | date_to_long_string }} - {{ page.categories }}</h4>
+        <a class="link button button_post" href="{{ page.website }}" target="_blank">Visit site</a>
+    </div>
+    <div class="post__content post__content_desktop">
+      {{ content }}
+    </div>
+  </article>
+  <section class="section section_cta cta">
+      <p class="cta__desc">Like what I've done? Let's get together and build something amazing.</p> 
+      <a class="link button button_cta" href="/contact">Get in touch</a>
+  </section>
+</main>
+{% include footer.html %}
