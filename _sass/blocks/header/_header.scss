@@ -4,7 +4,7 @@
   width:100%;
   background: white;
   z-index: 999;
-  padding: 25px; 
+  padding: 25px 0; 
 }
 
 /*-----Elements-----*/
@@ -35,6 +35,14 @@
   .header__menu {
     max-height: 20rem;
   }
+
+  .header {
+    padding: 25px;
+  }
+
+  .header__title_desktop {
+    margin-bottom:25px;
+  }
 }
 
 @media screen and (min-width:1300px) {
@@ -47,11 +55,10 @@
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    // margin-right: 100px;
     margin-left: auto;
   }
 
   .header__title_desktop {
-    // margin: 0 0 0 100px;
+    margin-bottom: 0;
   }
 }
