@@ -1,8 +1,10 @@
 {% include header.html %}
     <main class="wrapper  container__content">
       <article class="wrapper__post post">
-        <h1 class="post__title">{{ page.title }}</h2>
-        <h4 class="post__pub-date">{{ page.date | date_to_long_string }}</h4>
+        <div class="post__header">
+          <h1 class="post__title">{{ page.title }}</h2>
+          <h4 class="post__pub-date">{{ page.date | date_to_long_string }} - {{ page.categories }}</h4>
+      </div>
         <div class="post__content post__content_desktop">
           {{ content }}
         </div>

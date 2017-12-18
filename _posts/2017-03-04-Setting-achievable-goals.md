@@ -2,7 +2,7 @@
 layout: posts
 title:  "Setting achievable goals"
 date:   2017-03-04
-categories: productivity
+categories: Productivity
 permalink: setting-achievable-goals
 isWork: false
 ---
