@@ -3,7 +3,6 @@ layout: posts
 title:  "Setting achievable goals"
 date:   2017-03-04
 categories: Productivity
-permalink: setting-achievable-goals
 isWork: false
 ---
 Goals are hard. They're big and take a lot of effort to achieve. This post is about what I do when I set goals for myself. I hope these tips help you achieve yours. 

@@ -16,15 +16,14 @@
 title: Paul Truong
 email: mrpaultruong@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Paul Truong's slice of the internet. Front end Developer, Daydreamer and recreational scribbler, here is where you'll find his work and his ramblings.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://paul-truong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mrpaultruong
-github_username:  jekyll
-timezone: Australia/Brisbane
+url: "https://paul-truong.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: '@mrpaultruong'
+github_username:  paulTruong
+timezone: Australia/Canberra
 excerpt_separator: <!--more-->
+permalink: /:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown

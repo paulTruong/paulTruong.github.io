@@ -15,7 +15,6 @@
 }
 
 .underline {
-    @include transition;
     position: relative;
     border: none;
 }
@@ -24,7 +23,7 @@
     border-bottom: 5px solid $secondary-color; 
 }
 
-.underline:after {
+.underline::after {
     @include transition;
     height: 5px;
     position: absolute;
@@ -40,7 +39,7 @@
     text-decoration: none;
 }
 
-.underline_hover:hover:after {
+.underline_hover:hover::after {
     width:100%;
     left: 0;    
 }

@@ -208,7 +208,14 @@ svg:not(:root) {
  */
 
 figure {
-  margin: 1em 40px;
+  width: 100%;
+  margin: 0;
+  // margin: 1em 40px;
+}
+
+figure.highlight {
+  background: $bg-code;
+  // padding: 10px;
 }
 
 /**
@@ -226,19 +233,20 @@ hr {
 
 pre {
   overflow: auto;
+  padding: 10px 20px;
 }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
 
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
+// code,
+// kbd,
+// pre,
+// samp {
+//   font-family: monospace, monospace;
+//   font-size: ms(-1);
+// }
 
 /* Forms
    ========================================================================== */
