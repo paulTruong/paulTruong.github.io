@@ -4,7 +4,14 @@ title: About - Paul Truong
 ---
 <div class="about">
   <h1 class="section__title">About me</h1>
-  <img class="about__img" src="../img/about.jpg"></img>
+  <img class="about__img" 
+    srcset="
+      https://res.cloudinary.com/dwwm8qrk1/image/upload/q_70,w_297/about.jpg 297w,
+      https://res.cloudinary.com/dwwm8qrk1/image/upload/q_70,w_454/about.jpg 454w,
+      https://res.cloudinary.com/dwwm8qrk1/image/upload/w_697/about.jpg 697w,
+      https://res.cloudinary.com/dwwm8qrk1/image/upload/w_910/about.jpg 910w"      
+    alt="A (not so) flattering selfie of myself O.O">
+  </img>
   <div class="about__blurb">
     <p>
       <h2>Hi, I'm Paul Truong</h2>

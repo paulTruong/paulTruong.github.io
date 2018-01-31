@@ -5,7 +5,7 @@ date:   2017-12-18
 categories: ["Case Study"]
 # permalink: bistro-nguyens
 summary: "Casual Vietnamese Dining"
-thumbnail: "/img/project-thumbs/bistro-web.jpg"
+thumbnail: "https://res.cloudinary.com/dwwm8qrk1/image/upload/w_410/project-thumbs/bistro-web.jpg"
 isPublished: true
 website: "https://www.bistronguyens.com.au"
 ---
@@ -14,10 +14,10 @@ website: "https://www.bistronguyens.com.au"
 
 Bistro Nguyen's is Vietnamese restaurant with a casual atmosphere and serves traditional Vietnamese food. Amy and Damien opened Bistro Nguyen's in 2014 but since then did not have a website. Customers would ask where they could go for more information and, without a website, there was nowhere they could go. Seeing this I approached Amy and offered to build her a website.
 
-![Bistro Who?](/img/case-studies/bistro-nguyens/about.jpg)
-![Our Menu](/img/case-studies/bistro-nguyens/menu.jpg)
-![View Menu-mobile](/img/case-studies/bistro-nguyens/mobile-home.png){: .post__image_sml}
-![Our Menu-mobile](/img/case-studies/bistro-nguyens/mobile-menu.png){: .post__image_sml}
+![Bistro Who?](https://res.cloudinary.com/dwwm8qrk1/image/upload/w_1050/bistro-nguyens/about.jpg)
+![Our Menu](https://res.cloudinary.com/dwwm8qrk1/image/upload/w_1050/bistro-nguyens/menu.jpg)
+![View Menu-mobile](https://res.cloudinary.com/dwwm8qrk1/image/upload/w_700/bistro-nguyens/mobile-home.jpg){: .post__image_sml}
+![Our Menu-mobile](https://res.cloudinary.com/dwwm8qrk1/image/upload/w_700/bistro-nguyens/mobile-menu.jpg){: .post__image_sml}
 
 ## Process
 

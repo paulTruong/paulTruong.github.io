@@ -11,7 +11,7 @@
 
 .header__title {
   // margin:25px 0 0 25px;
-  font-size: ms(2);
+  font-size: 2rem;
   margin-left: 20px;
 }
 
@@ -29,6 +29,12 @@
 
 .header__menu_open {
   max-height: 20rem;
+}
+
+@media screen and (min-width:370px) {
+  .header__title {
+    font-size: ms(2);
+  }
 }
 
 @media screen and (min-width:650px) {
